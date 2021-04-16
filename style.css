@@ -1,0 +1,48 @@
+@media screen and (max-width: 900px) {
+   body {
+     padding: 0 10vw;
+   }
+ }
+
+header, nav {
+   text-align: center;
+   align-items: center;
+   list-style-position: inside;
+}
+
+.title {
+   font-size: 36pt;
+}
+
+header {
+   padding-top: 3vh;
+   padding-bottom: 3vh;
+   margin: auto;
+}
+
+nav h2 {
+   font-size: 24pt;
+   margin: 1em 0;
+   margin: auto;
+   text-decoration: underline dotted;
+}
+
+nav > ul {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin: auto;
+}
+
+#today {
+   text-align: center;
+   list-style-position: inside;
+   border-style: dashed;
+   border-color: chocolate;
+   border-width: 0.3cm;
+   border-radius: 0.3cm;
+   padding: 2em 2em;
+}
+
+footer {
+   padding-bottom: 5vh;
+}

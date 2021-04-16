@@ -1,3 +1,3 @@
-# Lab 2
+# Lab 3
 
-Website URL: https://stormfirefox1.github.io/Lab2/
+Website URL: https://stormfirefox1.github.io/sp21-cse110-lab3/

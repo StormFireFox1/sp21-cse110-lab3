@@ -7,11 +7,27 @@
     <meta name="description" content="A small journal kept specifically for CSE 110">
     <meta name="keywords" content="journal, lab, html">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+<style>
+body {
+   background-color: #eee8d5;
+   font-family: 'Quicksand', sans-serif;
+   color: rgb(59, 77, 84);
+   padding: 0 20vw;
+}
 
+@media screen and (max-width: 900px) {
+   body {
+      padding: 0 10vw;
+   }
+}
+</style>
 <body>
     <header>
-        <h1>The Procrastinator's Journal</h1>
+        <h1 class="title">The Procrastinator's Journal</h1>
     </header>
     <nav>
         <h2>Table Of Contents</h2>
@@ -22,15 +38,16 @@
         </ul>
     </nav>
     <main>
+        <h2 id="hiddenheader">Hidden Header!</h2>
         <h2>Journal Entries</h2>
         <section id="today">
             <h3>7 April 2021: Good stuff!</h3>
-            <p>Today was the day I worked on this lab! <i>Wunderbar!</i> <strong>Surprisingly</strong>, it took me a
+            <p>Today was the day I worked on this lab! <i style="max-width: 200px; max-height: 50px;">Wunderbar!</i> <strong>Surprisingly</strong>, it took me a
                 while until I was completely cool with <span>VSCode</span> for this assignment, but it didn't take
                 <em>too</em> long to get the hang of it.
             </p>
             <p>I also worked on:</p>
-            <div>
+            <div class="needspace">
                 <ol>
                     <li>My homework for <em>CSE 130</em></li>
                     <li>Watching lecture videos for ECON 100A</li>
@@ -64,6 +81,24 @@
                 <p>I didn't actually record the above impression. This is merely a sound taken out of my soundboard.
                     Sorry, my voice kinda hurt today.</p>
             </details>
+            <p>Turns out there was nothing to Grid in my original Journal. Here's some more little blocks with cats that represent some CSS Grid:</p>
+            <div class="grid-wrapper">
+                <img class="box" src="https://cdn2.thecatapi.com/images/O3btzLlsO.png">
+                <img class="box" src="https://cdn2.thecatapi.com/images/3vu.jpg">
+                <img class="box" src="https://cdn2.thecatapi.com/images/-AvmN5vzi.png">
+                <img class="box" src="https://cdn2.thecatapi.com/images/6qi.jpg">
+                <img class="box" src="https://cdn2.thecatapi.com/images/n3HKiw54e.png">
+                <img class="box" src="https://cdn2.thecatapi.com/images/2l5.jpg">
+            </div>
+            <p>Here's the same grid, but in <i>FLEXBOX</i>, too:</p>
+            <div class="flexbox-wrapper">
+                <img class="flex-img" src="https://cdn2.thecatapi.com/images/O3btzLlsO.png">
+                <img class="flex-img" src="https://cdn2.thecatapi.com/images/3vu.jpg">
+                <img class="flex-img" src="https://cdn2.thecatapi.com/images/-AvmN5vzi.png">
+                <img class="flex-img" src="https://cdn2.thecatapi.com/images/6qi.jpg">
+                <img class="flex-img" src="https://cdn2.thecatapi.com/images/n3HKiw54e.png">
+                <img class="flex-img" src="https://cdn2.thecatapi.com/images/2l5.jpg">
+            </div>
         </section>
         <hr>
     </main>

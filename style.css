@@ -1,19 +1,25 @@
+/* Center header of page */
 header, nav {
    text-align: center;
    align-items: center;
    list-style-position: inside;
 }
 
+/* Make title big */
 .title {
    font-size: 36pt;
 }
 
+/* Add padding to "center" the header more */
 header {
    padding-top: 3vh;
    padding-bottom: 3vh;
+   padding-left: 1vh;
+   padding-right: 1vh;
    margin: auto;
 }
 
+/* Make header for table of contents more interesting */
 nav h2 {
    font-size: 24pt;
    margin-left: 1em;
@@ -24,12 +30,14 @@ nav h2 {
    text-decoration: underline dotted;
 }
 
+/* Space list out */
 nav > ul {
    margin-top: 5px;
    margin-bottom: 5px;
    margin: auto;
 }
 
+/* Add border to first entry */
 #today {
    text-align: center;
    list-style-position: inside;

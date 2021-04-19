@@ -123,7 +123,7 @@ img.flex-img {
    flex-direction: row;
    flex-wrap: wrap;
    flex-shrink: 0;
-   background-color: hsl(182, 25%, 50%);
+   background-color: #609d9f;
 }
 
 footer {
